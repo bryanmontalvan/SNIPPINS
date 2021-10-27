@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #2ec89a;
+	/* background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%); */
+	background-repeat: no-repeat;
+	font-family: 'Righteous', cursive;
+}
+
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container button{
+	width: 15%;
+	font-size: 1.2em;
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.527);
+	border: 2px solid black;
+	color: white;
+}
+
+.container button:hover{
+	background: rgba(210, 216, 213, 0.445);
+	color: black;
+	cursor: pointer;
+}
+
+video{
+	background: rgba(0, 0, 0, 0.561);
+	margin-top: 5em;
+	filter: drop-shadow(0 0 0.75rem rgb(59, 59, 59));
+}
+
+.app-name{
+	position: absolute;
+	left: 2%;
+	bottom: 0;
+}
+
+#linkedin-btn{
+	background-color: transparent;
+	border: none;
+	width: 5%;
+	font-size: 5vh;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+#linkedin-btn:hover{
+	cursor: pointer;
+	color: white;
+}
