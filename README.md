@@ -1,7 +1,7 @@
 
 # SNIPPINS
 
-A web tool used to take quick screen captures and download it with ease
+A web tool used to take quick screen captures and download it with ease, created with Vanilla JS/HTML/CSS
 
 Link to the page:
 https://bryanmontalvan.github.io/SNIPPINS/
